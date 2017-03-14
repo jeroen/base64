@@ -3,7 +3,7 @@ Type: Package
 Title: Base64 Encoder and Decoder
 Version: 2.0.9000
 Author: Jeroen Ooms
-Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
+Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Description: Compatibility wrapper to replace the orphaned package by
     Romain Francois. New applications should use the 'openssl' or
     'base64enc' package instead.
