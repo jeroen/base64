@@ -2,8 +2,8 @@
 % Please edit documentation in R/base64.R
 \name{base64}
 \alias{base64}
-\alias{decode}
 \alias{encode}
+\alias{decode}
 \title{Encode and Decode base64}
 \usage{
 encode(input, output = tempfile(), linebreaks = TRUE)
@@ -16,11 +16,10 @@ decode(input, output = tempfile())
 \item{output}{output file}
 
 \item{linebreaks}{insert linebreaks to make output human readable
-See \code{\link[openssl:base64_encode]{openssl::base64_encode}}}
+See \link[openssl:base64_encode]{openssl::base64_encode}}
 }
 \description{
-Wraps \code{\link[openssl:base64_encode]{openssl::base64_encode}}
-to replace the deprecated implementation by Romain Francois.
+Wrapper for \link[openssl:base64_encode]{openssl::base64_encode}.
 }
 \examples{
 # encode a file
@@ -33,4 +32,3 @@ orig <- tempfile()
 base64::decode(tmp, orig)
 readLines(orig)
 }
-

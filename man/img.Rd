@@ -31,4 +31,3 @@ plot(1:100, rnorm(100), pch = 21, bg = "red", cex = 2 )
 dev.off()
 img(pngfile, Rd = TRUE)
 }
-

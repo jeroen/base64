@@ -1,7 +1,6 @@
 #' Encode and Decode base64
 #'
-#' Wraps \code{\link[openssl:base64_encode]{openssl::base64_encode}}
-#' to replace the deprecated implementation by Romain Francois.
+#' Wrapper for [openssl::base64_encode].
 #'
 #' @export
 #' @rdname base64
@@ -10,7 +9,7 @@
 #' @param input input file
 #' @param output output file
 #' @param linebreaks insert linebreaks to make output human readable
-#' See \code{\link[openssl:base64_encode]{openssl::base64_encode}}
+#' See [openssl::base64_encode]
 #' @importFrom openssl base64_encode
 #' @examples # encode a file
 #' myfile <- R.home("COPYING")
