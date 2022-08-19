@@ -65,7 +65,7 @@ img <- function( file, Rd = FALSE, alt = "image" ){
   input <- normalizePath(file, mustWork = TRUE)
   buf <- readBin(input, raw(), file.info(input)$size)
   base64 <- base64_encode(buf, linebreaks = FALSE)
-  sprintf('%s<img src="data:image/png;base64,\n%s" alt="%s" />%s',
+  sprintf('%s<img src="data:image/png;base64,%s" alt="%s" />%s',
     if( Rd ) "\\out{" else "", base64, alt, if( Rd ) "}" else ""
   )
 }

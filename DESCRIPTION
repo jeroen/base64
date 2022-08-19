@@ -4,9 +4,9 @@ Title: Base64 Encoder and Decoder
 Version: 2.0.9000
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
-Description: Compatibility wrapper to replace the orphaned package by
-    Romain Francois. New applications should use the 'openssl' or
-    'base64enc' package instead.
+Description: Compatibility wrapper to replace the orphaned package. New 
+    applications should use base64 encoders from 'jsonlite' or 'openssl' or
+    'base64enc'.
 License: MIT + file LICENSE
 Imports:
     openssl
