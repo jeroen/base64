@@ -1,7 +1,7 @@
 Package: base64
 Type: Package
 Title: Base64 Encoder and Decoder
-Version: 2.0.1
+Version: 2.0.2
 Author: Jeroen Ooms
 Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
 Description: Compatibility wrapper to replace the orphaned package. New 
